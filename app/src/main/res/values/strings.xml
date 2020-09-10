@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidProject</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="menu">Menu</string>
+    <string name="pName">Android Project</string>
+</resources>

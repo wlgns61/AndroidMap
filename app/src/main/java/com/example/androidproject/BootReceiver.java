@@ -26,7 +26,6 @@ public class BootReceiver extends BroadcastReceiver {
             alarmMgr = (AlarmManager)context.getSystemService(ALARM_SERVICE);
             alarmMgr.setInexactRepeating(AlarmManager.RTC,
                     SystemClock.elapsedRealtime() + 1000 ,AlarmManager.INTERVAL_HOUR, alarmIntent);
-
         }
     }
 }
